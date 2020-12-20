@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	ifstream file1("C:\\Users\\User\\Desktop\\f.txt");
+	ifstream file1("f.txt");
 	string str, strAll;
 
 	for (file1 >> str; !file1.eof(); file1 >> str)
@@ -32,7 +32,7 @@ int main()
 		}
 	}
 
-	ofstream file2("C:\\Users\\User\\Desktop\\g.txt");
+	ofstream file2("g.txt");
 	file2 << newStr;
 	file2.close();
 

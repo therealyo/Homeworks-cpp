@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	ifstream file1;
-	file1.open("C:\\Users\\User\\Desktop\\symbols.txt");
+	file1.open("symbols.txt");
 	string str;
 	file1 >> str;
 	file1.close();
@@ -17,7 +17,7 @@ int main()
 	str += lastSymbol;
 
 	ofstream file2;
-	file2.open("C:\\Users\\User\\Desktop\\symbols.txt");
+	file2.open("symbols.txt");
 	file2 << str;
 	file2.close();
 
